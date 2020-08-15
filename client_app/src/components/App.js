@@ -8,17 +8,19 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <div className="App">
-        <h2>My first Apollo app 🚀</h2>
+        <h2>My first Apollo app <div className="App-logo"> 🚀 </div></h2>
         <header className="App-header">
-          <h2 className="App-logo">GraphQL</h2>
+          <h2 className="App-logo">🚀</h2>
           <h2>GraphQL</h2>
-          <h2 className="App-logo1">GraphQL</h2>
+          <h2 className="App-logo1">🚀</h2>
           <h2>GraphQL</h2>
-          <h2 className="App-logo">GraphQL</h2>
+          <h2 className="App-logo">🚀</h2>
           <h2>GraphQL</h2>
-          <h2 className="App-logo1">GraphQL</h2>
+          <h2 className="App-logo1">🚀</h2>
           <h2>GraphQL</h2>
-          <h2 className="App-logo">GraphQL</h2>
+          <h2 className="App-logo">🚀</h2>
+          <h2>GraphQL</h2>
+          <h2 className="App-logo1">🚀</h2>
         </header>
         <Students />
       </div>

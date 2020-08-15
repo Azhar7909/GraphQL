@@ -18,7 +18,7 @@ export default function Students() {
 
     if (loading) return <h2 style={{ textAlign: 'center', color: 'darkgoldenrod' }}>Loading...</h2>;
     if (error) return <h2 style={{ textAlign: 'center', color: 'red' }}>{error.message}</h2>;
-    console.log(data.students);
+    // console.log(data.students);
 
     return (
         <div>
@@ -41,7 +41,7 @@ export default function Students() {
                                 <td>{val.id}</td>
                                 <td>{val.name}</td>
                                 <td>{val.email}</td>
-                                <td>{val.age}</td>
+                                <td>{val.age}<div className="App-logo">🚀</div></td>
                             </tr>
                         ))
                     }
